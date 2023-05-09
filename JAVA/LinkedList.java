@@ -73,7 +73,7 @@ public class LinkedList {
         }
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws FileNotFoundException {
         Scanner sc = new Scanner(new FileReader("dataset.txt"));
         LList list = new LList();
 
@@ -85,10 +85,15 @@ public class LinkedList {
         while (sc.hasNext()) {
             nama = sc.nextLine();
             prodi = sc.nextLine();
-            tinggi = sc.nextInt();
-            berat = sc.nextInt();
+            tinggi = Integer.parseInt(sc.nextLine());
+            berat = Integer.parseInt(sc.nextLine());
             hobby = sc.nextLine();
 
+            m = new Mhs(nama, prodi, tinggi, berat, hobby);
+            node = new Node(m);
         }
+        if  (sc.hasNext())
+            sc.nextLine();
+        sc.close();
     }
 }
