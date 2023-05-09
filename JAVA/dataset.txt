@@ -1,0 +1,175 @@
+hanan
+matematika
+170
+56
+membaca
+fakhira
+statistika
+166
+56
+menyanyi
+rima
+statistika
+163
+50
+dance
+bening
+ilmu komputer
+155
+40
+bersepeda
+lailyna
+aktuaria
+145
+43
+bermain gitar
+husna
+kimia
+160
+42
+makan
+naufal
+fisika
+172
+60
+badminton
+johan
+geofisika
+168
+58
+menulis
+budi
+elins
+173
+63
+basket
+ahmad
+biologi
+172
+61
+membaca
+ali
+sosiologi
+170
+65
+makan
+masykur
+geografi
+175
+65
+basket
+ibnu
+teknik fisika
+167
+60
+belajar
+afif
+teknik kimia
+170
+68
+gaming
+rayhan
+teknik industri
+165
+55
+gym
+putri
+teknik elektro
+158
+54
+menyanyi
+nanda
+arsitektur
+150
+40
+bersih-bersih
+agung
+teknologi informasi
+175
+68
+coding
+indah
+teknik biomedis
+160
+55
+voli
+daniel
+teknik geologi
+174
+70
+gym
+joshua
+teknik geodesi
+178
+65
+mandi
+bima
+teknik nuklir
+173
+64
+catur
+gaung
+teknik perkapalan
+167
+67
+gym
+daffa
+teknik mesin
+170
+65
+renang
+hazel
+kedokteran umum
+169
+58
+menulis lagu
+bian
+kedokteran gigi
+180
+55
+memasak
+farhan
+gizi
+175
+60
+dance
+tara
+hukum
+171
+57
+bermain piano
+dita
+manajemen
+156
+45
+menari
+kavi
+agribisnis
+160
+66
+menulis
+yuan
+psikologi
+172
+59
+berenang
+zhion
+sastra inggris
+165
+53
+bermain biola
+bulan
+arsitektur
+160
+50
+melukis
+layla
+pendidikan dokter
+165
+55
+bermain musik
+miya
+pendidikan dokter gigi
+167
+50
+travelling
