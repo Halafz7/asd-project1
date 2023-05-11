@@ -85,7 +85,7 @@ if __name__ == "__main__":
     
     # Read file
     try:
-        with open("./dataset.txt", "r") as file:
+        with open("D:/Afif/UGM/KULIAH LUR/SMT 6/Algoritma dan Struktur Data/Tugas/Setelah UTS/asd-project1/Python/dataset.txt", "r") as file:
             lines = file.readlines()
             lines = [line.strip() for line in lines]
             lines = [line.split(",") for line in lines]

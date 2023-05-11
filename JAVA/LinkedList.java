@@ -73,27 +73,31 @@ public class LinkedList {
         }
     }
 
-    public static void main(String[] args) throws FileNotFoundException {
-        Scanner sc = new Scanner(new FileReader("dataset.txt"));
-        LList list = new LList();
-
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(new FileReader("D:/Afif/UGM/KULIAH LUR/SMT 6/Algoritma dan Struktur Data/Tugas/Setelah UTS/asd-project1/JAVA/dataset.txt"));
+        
         String nama, prodi, hobby;
         int tinggi, berat;
         Mhs m;
         Node node;
-
-        while (sc.hasNext()) {
-            nama = sc.nextLine();
-            prodi = sc.nextLine();
-            tinggi = Integer.parseInt(sc.nextLine());
-            berat = Integer.parseInt(sc.nextLine());
-            hobby = sc.nextLine();
-
-            m = new Mhs(nama, prodi, tinggi, berat, hobby);
-            node = new Node(m);
+        
+        try{
+            while (sc.hasNextLine()) {
+                nama = sc.nextLine();
+                prodi = sc.nextLine();
+                tinggi = Integer.parseInt(sc.nextLine());
+                berat = Integer.parseInt(sc.nextLine());
+                hobby = sc.nextLine();
+    
+                m = new Mhs(nama, prodi, tinggi, berat, hobby);
+                node = new Node(m);
+            }
+            if  (sc.hasNextLine())
+                sc.nextLine();
+                sc.close();
         }
-        if  (sc.hasNext())
-            sc.nextLine();
-        sc.close();
+        catch(Exception error){
+            System.out.println("File not Found");
+        }
     }
 }
